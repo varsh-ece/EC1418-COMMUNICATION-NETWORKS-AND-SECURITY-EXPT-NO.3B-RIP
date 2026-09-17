@@ -4,13 +4,32 @@
 To connect computers in multiple networks using Distance Vector Routing Protocol and to verify the connectivity between computers.
 # EQUIPMENTS REQUIRED:
 
+| S.NO | NAME | QUANTITY |
+|---:|---|---:|
+| 1 | Desktop computer | 4 |
+| 2 | Cisco 1800 router | 2 |
+| 3 | DCE-DTE cable | 1 |
+| 4 | Cisco 2900 switch | 2 |
+| 5 | CAT 6 patch cable | 6 |
+| 6 | Console cable | 2 |
 
 
 # IP ASSIGNMENT:
 
 
+| NAME | IP ADDRESS | SUBNET MASK | NETWORK | CLASS | GATEWAY |
+|---|---|---|---|---|---|
+| PC0 | 192.168.0.1 | 255.255.255.0 | 192.168.0.0 | C | 192.168.0.200 |
+| PC1 | 192.168.0.2 | 255.255.255.0 | 192.168.0.0 | C | 192.168.0.200 |
+| PC2 | 192.168.2.1 | 255.255.255.0 | 192.168.2.0 | C | 192.168.1.200 |
+| PC3 | 192.168.2.2 | 255.255.255.0 | 192.168.2.0 | C | 192.168.1.200 |
+| ROUTER 0 / INTER F 0/0 | 192.168.0.200 | 255.255.255.0 | 192.168.0.0 | C | — |
+| ROUTER 0 / SERIAL 2/0 | 192.168.1.1 | 255.255.255.0 | 192.168.1.0 | C | — |
+| ROUTER 1 / INTER F 0/0 | 192.168.2.200 | 255.255.255.0 | 192.168.2.0 | C | — |
+| ROUTER 1 / SERIAL 2/0 | 192.168.1.2 | 255.255.255.0 | 192.168.1.0 | C | — |
 
 # NETWORK DIAGRAM:
+<img width="713" height="292" alt="image" src="https://github.com/user-attachments/assets/7bc137a8-5ae4-46ab-a5f2-a707ad4bd800" />
 
 
 # PROCEDURE:
@@ -82,6 +101,8 @@ You can also check connectivity between the PCs on different networks to ensure 
  
 # OUTPUT
 
+<img width="2880" height="2160" alt="image" src="https://github.com/user-attachments/assets/328b754b-19ae-418f-a6da-e1e4f8d3e256" />
+<img width="2880" height="2160" alt="image" src="https://github.com/user-attachments/assets/205fc44d-ab55-4375-aa47-daf4438bf4a3" />
 
 
 # RESULT:
